@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.grid {
+    background-color: teal;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 20px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.grid div {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+    height: 100px;
+    width: 200px;
+}
